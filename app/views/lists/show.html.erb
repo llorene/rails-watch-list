@@ -1,6 +1,7 @@
 <h1></h1>
+<br>
 <%= @list.name %>
 <br>
-<%= link_to "Delete", list_path(@list), method: :delete, data: {confirm: "Are you sure?"} %>
+<%# <%= link_to "Delete", list_path(@list), method: :delete, data: {confirm: "Are you sure?"} %>
 
-<%= link_to "Back to list", lists_path %>
+<%= link_to "Back to list", root_path %>
